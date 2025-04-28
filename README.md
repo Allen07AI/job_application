@@ -101,5 +101,7 @@ cd ResTech.io
 # Install required libraries
 pip install -r requirements.txt
 
+# Add your school email (like @edu) , password and OPENAI Api Key in the .env file
+
 # Run the Streamlit app
 streamlit run web_page.py
