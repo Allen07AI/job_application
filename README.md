@@ -31,7 +31,7 @@ This Streamlit app helps you **build**, **optimize**, and **apply** for jobs usi
   - **Resume Tailor Agent** ✂️  
   These agents collaborate to enhance your documents and boost your chances!
 
-- **`web_page.py`** 🧠  
+- **`app.py`** 🧠  
   Main Streamlit App consisting of all the features  
 
 ---
