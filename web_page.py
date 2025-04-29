@@ -73,7 +73,7 @@ def rate_sections_openai(resume_text, job_description):
     """
 
     response = client.chat.completions.create(
-        model="ft:gpt-3.5-turbo-0125:personal:resume-ai-score:BR2ukDsY",
+        model= finetuned_model_id,
         messages=[
             {"role": "system", "content": "You are an expert resume evaluator."},
             {"role": "user", "content": prompt}
